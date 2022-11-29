@@ -1,0 +1,87 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+ 
+width: 100%;
+
+}
+.search{
+  opacity: 0.3;
+  
+
+
+
+}
+p{
+  font-size: 1.6rem;
+
+  
+}
+body{
+  font-family: 'monseratt',sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+.app:before{
+  content: '';
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+.app{
+background-image: url('./assets/starry sky.jpg') ;
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.temp{
+font-size: 33px;
+
+}
+.location{
+font-size: 33px;
+}
+
+.description{
+  text-align: right;
+  
+}
+.app .bottom{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(225, 225, 225, 0.2);
+  font-style: italic;
+}
+.bottom{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+}
+.bottom, .feels, .Humidity, .WindSpeed{
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  position: fixed;
+  width: 100px;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+}
+.app .description{
+  position: relative;
+ 
+}
+.bold{
+  font-weight: 700;
+}
